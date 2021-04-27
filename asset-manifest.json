@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lets-play-tictactoe/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/lets-play-tictactoe/static/js/main.b02b6dcd.chunk.js",
+    "main.js.map": "/lets-play-tictactoe/static/js/main.b02b6dcd.chunk.js.map",
+    "runtime-main.js": "/lets-play-tictactoe/static/js/runtime-main.e7812e4d.js",
+    "runtime-main.js.map": "/lets-play-tictactoe/static/js/runtime-main.e7812e4d.js.map",
+    "static/js/2.dfda9eb4.chunk.js": "/lets-play-tictactoe/static/js/2.dfda9eb4.chunk.js",
+    "static/js/2.dfda9eb4.chunk.js.map": "/lets-play-tictactoe/static/js/2.dfda9eb4.chunk.js.map",
+    "static/js/3.82f3c075.chunk.js": "/lets-play-tictactoe/static/js/3.82f3c075.chunk.js",
+    "static/js/3.82f3c075.chunk.js.map": "/lets-play-tictactoe/static/js/3.82f3c075.chunk.js.map",
+    "index.html": "/lets-play-tictactoe/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/lets-play-tictactoe/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.dfda9eb4.chunk.js.LICENSE.txt": "/lets-play-tictactoe/static/js/2.dfda9eb4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7812e4d.js",
+    "static/js/2.dfda9eb4.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.b02b6dcd.chunk.js"
+  ]
+}
