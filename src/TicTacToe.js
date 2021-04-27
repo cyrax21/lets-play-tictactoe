@@ -70,7 +70,7 @@ function TicTacToe() {
         width: "100vw",
         height: "120vh",
         flexDirection: "column",
-        justifyContent: "center",
+        justifyContent: "flex-start",
         alignItems: "center",
       }}
     >
@@ -111,7 +111,7 @@ function TicTacToe() {
                     border: "2px solid cyan",
                     display: "flex",
                     justifyContent: "center",
-                    alignItems: "center",
+                    alignItems: "center"
                   }}
                   onClick={function () {
                     const updated = produce(board, (draftState) => {
@@ -119,10 +119,10 @@ function TicTacToe() {
                         draftState[rowIndex][colIndex] = player;
                       }
                     });
-                    let answer = checkWinner(board);
+                    let answer = checkWinner(updated);
                     moves++;
                     if (answer != null || moves == 9) {
-                      if(moves == 9 && answer == null) {
+                      if(answer == null && moves == 9){
                         window.alert(
                           "Unfortunately the game is Tied. Try once more ! :)"
                         );
