@@ -141,6 +141,7 @@ function TicTacToe() {
                     style={{
                       color: "cyan",
                       fontWeight: "bold",
+                      fontSize: "60px"
                     }}
                   >
                     {item == -1 ? " " : item == 1 ? "X" : "0"}
