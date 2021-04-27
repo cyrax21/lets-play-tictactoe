@@ -68,7 +68,7 @@ function TicTacToe() {
         background: "#0c0e61",
         display: "flex",
         width: "100vw",
-        height: "120vh",
+        height: "100vh",
         flexDirection: "column",
         justifyContent: "flex-start",
         alignItems: "center",
