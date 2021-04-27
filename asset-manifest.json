@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lets-play-tictactoe/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/lets-play-tictactoe/static/js/main.b02b6dcd.chunk.js",
-    "main.js.map": "/lets-play-tictactoe/static/js/main.b02b6dcd.chunk.js.map",
+    "main.js": "/lets-play-tictactoe/static/js/main.c143a5e2.chunk.js",
+    "main.js.map": "/lets-play-tictactoe/static/js/main.c143a5e2.chunk.js.map",
     "runtime-main.js": "/lets-play-tictactoe/static/js/runtime-main.e7812e4d.js",
     "runtime-main.js.map": "/lets-play-tictactoe/static/js/runtime-main.e7812e4d.js.map",
     "static/js/2.dfda9eb4.chunk.js": "/lets-play-tictactoe/static/js/2.dfda9eb4.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e7812e4d.js",
     "static/js/2.dfda9eb4.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.b02b6dcd.chunk.js"
+    "static/js/main.c143a5e2.chunk.js"
   ]
 }
