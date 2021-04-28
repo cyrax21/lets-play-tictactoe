@@ -67,11 +67,15 @@ function TicTacToe() {
       style={{
         background: "#0c0e61",
         display: "flex",
-        width: "100vw",
-        height: "100vh",
+        width: "90vw",
+        height: "90vh",
         flexDirection: "column",
         justifyContent: "flex-start",
         alignItems: "center",
+        borderBottom:"5vh solid cyan",
+        borderTop:"5vh solid cyan",
+        borderLeft:"5vw solid cyan",
+        borderRight:"5vw solid cyan",
       }}
     >
       <div>
@@ -91,7 +95,7 @@ function TicTacToe() {
             color: "cyan",
           }}
         >
-          Current Player: {player == 0 ? "First" : "Second"}
+          Current Player: {player == 0 ? "CIRCLE" : "CROSS"}
         </h5>
       </div>
       {board.map(function (row, rowIndex) {
@@ -128,7 +132,7 @@ function TicTacToe() {
                         );
                       }else{
                         window.alert(
-                          "Winner is " + (answer == 1 ? "Second" : "First")
+                          "Congratulations " + (answer == 1 ? "Cross" : "Circle")
                         );
                       }
                       window.location.reload();
